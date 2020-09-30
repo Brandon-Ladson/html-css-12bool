@@ -8,6 +8,24 @@
 /* regole righe */
 [class*="col-"]{
   min-height: 150px;
-  background-color: pink;
+  background-color: #ffc0cb;
   border: 1px solid #000;
+  position: relative;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* regole righe annidate */
+.row.inside{
+  margin: 4px;
+}
+
+.nested{
+  background-color: #f07f80;
+  border: 1px solid #fff;
 }
